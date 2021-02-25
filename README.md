@@ -34,7 +34,7 @@ docker run --name sentral --hostname telefonserver --restart unless-stopped -d -
  - docker stop sentral
  - docker container rm -f sentral
 ## Comon docker commands used during development
-### Shop servers listing
+### Show servers listing
 netstat -tunlp
 ### Look at SIP messages 
 sudo ngrep -d <your interface> -W byline port 5060
